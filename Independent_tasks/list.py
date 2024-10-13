@@ -33,6 +33,9 @@ print(mat[0]) #[10, 20, 30]
 print(mat[1]) #[40, 50, 60]
 print(mat[2]) #[70, 80, 80]
 
+for mat_ in mat :
+    print(f'Смотри сюда : {mat_}')
+
 #вывод каждого элемента
 
 print(mat[0][0]) #10
@@ -44,6 +47,12 @@ print(mat[1][2]) #60
 print(mat[2][0]) #70
 print(mat[2][1]) #80
 print(mat[2][2]) #90
+
+for mat_ in mat:
+    # в переменой mat_ храниться  [10, 20, 30] [40, 50, 60] [70, 80, 80]
+    for mat_1 in mat_:
+        print(f'Смотри сюда : {mat_1}')
+
 
 
 
