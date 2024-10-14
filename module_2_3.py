@@ -1,0 +1,16 @@
+# Домашняя работа по уроку "Стиль кода часть II. Цикл While" 14/10/24
+from math import trunc
+
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+
+i = 0
+while True:
+    if my_list[i] > 0 :
+        print(my_list[i])
+        i+=1
+    elif my_list[i] == 0:
+        i+=1
+        continue
+    else:
+        break
+
